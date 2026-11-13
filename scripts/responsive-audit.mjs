@@ -26,7 +26,8 @@ for (const slug of sites) {
         .map(el=>{
           const b=el.getBoundingClientRect(),computed=getComputedStyle(el);
           const localOverflow = el.scrollWidth-el.clientWidth;
-          const offscreen = b.right>viewport+3||b.left < -3;
+          const inIntentionalRail=!!el.closest('.theme-catalogue .archive-items');
+          const offscreen = !inIntentionalRail && (b.right>viewport+3||b.left < -3);
           return {text:(el.textContent||'').trim().slice(0,70),width:Math.round(b.width),scrollWidth:el.scrollWidth,clientWidth:el.clientWidth,localOverflow,offscreen,whiteSpace:computed.whiteSpace,overflow:computed.overflow}
         });
       const nav = document.querySelector('.sitehead');
