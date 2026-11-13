@@ -10,7 +10,7 @@ The scaffold uses native Shopify Liquid objects for real products, variants, col
 This is an initial implementation, not an installed or merchant-tested Shopify theme. The merchant must upload and configure the theme, choose palettes and brand imagery, verify its catalog, configure navigation/collections/policies/shipping/tax, and test the full checkout flow. Theme Check and a live Shopify preview test are still pending. No third-party paid apps are required by this code.
 
 ## Style selector
-Use Theme settings → Design direction to choose a preset. Then change Background, Foreground and Accent to the corresponding concept colors. Custom procedural PNG textures are stored in `assets/` and referenced through Shopify's `asset_url` filter. The Sunday Market slot currently uses the Atelier texture as a fallback pending its own graphics export.
+Use Theme settings → Design direction to choose a preset. Then change Background, Foreground and Accent to the corresponding concept colors. Custom procedural PNG textures are stored in `assets/` and referenced through Shopify's `asset_url` filter. All ten concepts have independent custom PNG surface textures, including Sunday Market.
 
 ## Design sources
 [10 hosted prototypes](https://bradleymatera.github.io/symphonycandle/), [source asset manifest](../assets/manifest.json), [brand review](ASSET-REVIEW.md).
