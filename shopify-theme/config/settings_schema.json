@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Symphony visual system",
+    "settings": [
+      {
+        "type": "select",
+        "id": "concept",
+        "label": "Design direction",
+        "default": "atelier",
+        "options": [
+          {
+            "value": "atelier",
+            "label": "Atelier"
+          },
+          {
+            "value": "nocturne",
+            "label": "Nocturne"
+          },
+          {
+            "value": "botanical",
+            "label": "Botanical"
+          },
+          {
+            "value": "modern-apothecary",
+            "label": "Modern Apothecary"
+          },
+          {
+            "value": "rose-atelier",
+            "label": "Rose Atelier"
+          },
+          {
+            "value": "gallery-house",
+            "label": "Gallery House"
+          },
+          {
+            "value": "sunday-market",
+            "label": "Sunday Market"
+          },
+          {
+            "value": "ritual-collective",
+            "label": "Ritual Collective"
+          },
+          {
+            "value": "heritage-craft",
+            "label": "Heritage Craft"
+          },
+          {
+            "value": "studio-monochrome",
+            "label": "Studio Monochrome"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Page background",
+        "default": "#f8f6f0"
+      },
+      {
+        "type": "color",
+        "id": "foreground",
+        "label": "Text and buttons",
+        "default": "#25251f"
+      },
+      {
+        "type": "color",
+        "id": "accent",
+        "label": "Accent",
+        "default": "#78684f"
+      }
+    ]
+  }
+]

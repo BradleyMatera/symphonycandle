@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "hero": {
+      "type": "studio-hero"
+    },
+    "featured": {
+      "type": "studio-collection"
+    },
+    "story": {
+      "type": "studio-story"
+    }
+  },
+  "order": [
+    "hero",
+    "featured",
+    "story"
+  ]
+}
