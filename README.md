@@ -4,6 +4,16 @@
 
 > **Project status:** Ten interactive storefront **mockups** are published through GitHub Pages. They are design proposals—not ten installed Shopify themes, live product catalogs, or checkout-enabled stores. The client's actual Shopify storefront has **not** been modified, and no contract/design/price approval is recorded.
 
+## Composition redesign — November 13, 2026
+
+**The ten live mockups now have ten different page structures**, not just different palettes. The design engine and composition CSS are shared, while the layouts intentionally vary: editorial journal, cinematic immersive, botanical orbit, horizontal product rail, romantic collage, museum exhibition, playful circular market, minimalist zen, broadsheet newspaper, and graphic brutalism.
+
+- [Ten-composition implementation matrix](docs/COMPOSITION-SYSTEM.md)
+- [New shared interaction logic](assets/showcase-v4.js)
+- [New responsive style systems](assets/showcase-v4.css)
+
+All ten still use real source photographs, are GitHub Pages previews, and **do not run Shopify checkout**. The Shopify theme scaffold is separate; porting the selected design's unique composition into Shopify sections remains necessary.
+
 ## Latest upgrade — custom art and Shopify-portable source
 
 The ten hosted concepts now include added editorial layouts, responsive photo collages, interactive archive lookbooks, and **30 original procedural PNG assets** (a textured surface, editorial panel and decorative seal for each concept). The PNGs are original procedural graphic artwork, not AI-rendered product photography; the image-generation service failed during this build.
