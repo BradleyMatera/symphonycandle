@@ -16,7 +16,7 @@ Observed Shopify opening-soon storefront with logo, newsletter signup, and passw
 
 https://www.facebook.com/profile.php?id=100085785163287&sk=photos
 
-Observed 16 gallery photo entries and downloaded their displayed previews. Full-size photo navigation opened Facebook authentication. The saved profile requires a password; no authenticated session has been established. Full historical collection and full-size originals remain uncollected. See manifest for each image's canonical photo source and hash.
+Observed 16 gallery photo entries and downloaded their displayed previews. Full-size photo navigation initially required authentication. Secure sign-in subsequently succeeded. The entire numbered Photos gallery (180 entries) was traversed and downloaded via its full-photo viewer. A second traversal reconciled all 180 source links against the downloads, with zero missing entries. These are Facebook-served renditions, not guaranteed original uploads. Separate Reels/videos were not archived. See manifest for each image's canonical photo source and hash.
 
 ## Evidence rules
 Counts and public details are snapshots, not guarantees of present inventory or services. Do not treat social captions, automatic image descriptions, or filenames as verified product specifications. No tax records or personal financial discussion belongs in this public repository.

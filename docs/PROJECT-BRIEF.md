@@ -22,3 +22,6 @@ Updated: November 13, 2026.
 Exact catalog and variants; active product availability; ingredients and warnings; shipping origin, service area, packaging and weights; existing Shopify plan and configuration; domain registrar; current logo preference; pickup details; tax registrations/settings; scope of budget; launch deadline; permission to use original images.
 
 A Janesville landing-page referral does not establish the client's physical location. Do not infer it.
+
+## Asset collection update
+Authenticated Facebook access succeeded. All 180 numbered photo-gallery entries were downloaded and reconciled with zero missing entries. Public photo content only; no private messages or account data were archived.

@@ -39,4 +39,4 @@ Proposed target: 2–3 weeks after complete assets and access are received, with
 - Separate recurring costs, handoff, and support terms.
 
 ## Design hypotheses to validate
-Use actual logo and photography; establish consistent typography, generous whitespace, clear collection browsing, readable product details, and a direct route to checkout. Do not invent the final palette before reviewing approved brand files. Product images need originals rather than 206px Facebook previews.
+Use actual logo and photography; establish consistent typography, generous whitespace, clear collection browsing, readable product details, and a direct route to checkout. Do not invent the final palette before reviewing approved brand files. Use assets/facebook-full for concepts; 180 full-viewer images are now available. Request camera originals and approved current products for production.
