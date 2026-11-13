@@ -20,3 +20,6 @@ Use Theme settings → Design direction to choose a preset. Then change Backgrou
 * Shopify product data and checkout are rendered only inside the actual store, not GitHub Pages.
 * Owner approval is required before production reuse of the captured brand photography.
 * Use Shopify-native product form and cart routes; test variant updates, inventory and payment settings with the client.
+
+## Concept asset packs
+Each of the ten concepts includes three original procedural PNG assets: signature texture, editorial panel and transparent decorative seal. Copies are also placed in `shopify-theme/assets/` using Shopify-safe flattened filenames, alongside the theme CSS and scripts. The product images in the demo remain archived photos and are not generated product representations.
