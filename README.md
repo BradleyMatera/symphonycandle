@@ -6,12 +6,12 @@
 
 ## Latest upgrade — custom art and Shopify-portable source
 
-The ten hosted concepts now include added editorial layouts, responsive photo collages, interactive archive lookbooks, and **ten individually generated PNG textures** (one per concept). The PNGs are original procedural graphic artwork, not AI-rendered product photography; the image-generation service failed during this build.
+The ten hosted concepts now include added editorial layouts, responsive photo collages, interactive archive lookbooks, and **30 original procedural PNG assets** (a textured surface, editorial panel and decorative seal for each concept). The PNGs are original procedural graphic artwork, not AI-rendered product photography; the image-generation service failed during this build.
 
 - **[Browse the ten updated interactive concepts](https://bradleymatera.github.io/symphonycandle/)**
-- **[Custom PNG texture asset packs](assets/concepts/)** — `assets/concepts/<concept>/signature-texture.png`
+- **[Custom PNG art packs](assets/concepts/)** — `assets/concepts/<concept>/signature-texture.png`, `editorial-panel.png`, and `decorative-seal.png`
 - **[Shared front-end enhancements](assets/lux-enhancements.css)** and **[interactivity](assets/lux-enhancements.js)**
-- **[Shopify Online Store 2.0 theme source](shopify-theme/)** — Liquid, native product and cart support, sections, JSON templates, ten visual style settings, and textures available as Shopify assets
+- **[Shopify Online Store 2.0 theme source](shopify-theme/)** — Liquid, native product and cart support, sections, JSON templates, ten visual style settings, and all 30 PNG graphics copied into Shopify's flat `assets/` directory
 - **[Shopify integration and handoff guide](docs/SHOPIFY-PORT.md)**
 
 **Deployment distinction:** GitHub Pages hosts working visual mockups, not Shopify checkout. The Shopify theme files are an implementation scaffold and have **not** been installed, validated with Shopify Theme Check, or end-to-end tested in the client's store. Pricing, inventory, shipping, product claims, and photo permissions must be confirmed before production use.
@@ -47,6 +47,16 @@ The gallery lets you browse and compare all ten concepts, filter styles, and sea
 - Links back to the ten-concept comparison gallery
 
 **Important limitations:** Demo photo cards are visual references, not verified purchasable products. The static GitHub Pages demos do **not** process payments, call a Shopify Storefront API, read live inventory, or create Shopify orders. Prices, ingredients, stock, policies, variants, and claims must be approved by the business before a real launch.
+
+## Custom art and reusable code
+
+Each concept has three original PNG design assets. These are **abstract, code-generated graphic treatments**—not AI-rendered product photography, custom product cutouts, or representations of inventory. Existing product photos come from Symphony's archived public imagery. The image-generation service failed, so photorealistic composite/cutout artwork is **not** included in this release.
+
+- [All 30 source graphics](assets/concepts/)
+- [Custom CSS used by every demo](assets/lux-enhancements.css)
+- [Interactive gallery/FAQ implementation](assets/lux-enhancements.js)
+- [Shopify theme assets](shopify-theme/assets/)
+- [Porting and verification requirements](docs/SHOPIFY-PORT.md)
 
 ## 🗂 Repository map
 
