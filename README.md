@@ -83,7 +83,6 @@ Each concept has three original PNG design assets. These are **abstract, code-ge
 │   ├── gallery.html            # Reference gallery
 │   └── README.md               # Asset handling notes
 ├── docs/                       # Research, planning and client proposal documents
-├── .github/workflows/pages.yml # GitHub Pages deployment automation
 ├── AGENTS.md                   # Instructions for future coding agents
 └── README.md                   # You are here
 ```
@@ -125,11 +124,11 @@ GitHub Pages is hosting the **design previews**, not a Shopify store. To turn a 
 
 - **Published URL:** https://bradleymatera.github.io/symphonycandle/
 - **Repo branch:** `main`
-- **Workflow:** [Deploy Symphony mockup to GitHub Pages](.github/workflows/pages.yml)
+- **Deployment method:** GitHub Pages native branch build from `main` (the competing custom deployment workflow was removed after it caused cancelled deployments).
 - **Workflow runs:** [GitHub Actions](https://github.com/BradleyMatera/symphonycandle/actions)
 - **Pages settings (owner only):** [Repository Pages settings](https://github.com/BradleyMatera/symphonycandle/settings/pages)
 
-Pushing changes to `main` triggers a GitHub Pages deployment. GitHub Actions and Pages build/deploy runs both reported success for the ten-concept gallery commit (`9f0939a`). If a page seems old, consult Actions and refresh after the new deployment completes.
+Pushing changes to `main` triggers GitHub Pages' native build and deployment. Check the latest **pages build and deployment** run in Actions. A previous custom workflow was removed to avoid competing deployments. If a page seems old, consult Actions and refresh after the latest run succeeds.
 
 ## Brand asset rights and privacy
 
