@@ -4,6 +4,17 @@
 
 > **Project status:** Ten interactive storefront **mockups** are published through GitHub Pages. They are design proposals—not ten installed Shopify themes, live product catalogs, or checkout-enabled stores. The client's actual Shopify storefront has **not** been modified, and no contract/design/price approval is recorded.
 
+## Responsive QA and viewport checks
+
+The 10 designs include a responsive correction stylesheet for mobile, tablet, desktop, and ultrawide layouts. The clipped Atelier headline shown in review was corrected with fluid typography and wrapping instead of `white-space: nowrap; overflow: hidden`.
+
+- [Responsive QA documentation](docs/RESPONSIVE-QA.md)
+- [Responsive stylesheet](assets/responsive-fixes.css)
+- [Automated Chromium viewport audit](https://github.com/BradleyMatera/symphonycandle/actions/workflows/responsive-audit.yml) — 10 designs × 13 viewport widths (320–1920 px), with screenshots and overflow checks
+- [Latest Pages deployment](https://github.com/BradleyMatera/symphonycandle/actions)
+
+An audit workflow being committed or queued is not a passing result. Check its run status and screenshot artifacts for the measured outcome.
+
 ## Composition redesign — November 13, 2026
 
 **The ten live mockups now have ten different page structures**, not just different palettes. The design engine and composition CSS are shared, while the layouts intentionally vary: editorial journal, cinematic immersive, botanical orbit, horizontal product rail, romantic collage, museum exhibition, playful circular market, minimalist zen, broadsheet newspaper, and graphic brutalism.
