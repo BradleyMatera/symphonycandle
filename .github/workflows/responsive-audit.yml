@@ -1,0 +1,41 @@
+name: Responsive viewport audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'demos/**'
+      - 'assets/showcase-v4.css'
+      - 'assets/responsive-fixes.css'
+      - 'assets/showcase-v4.js'
+      - 'scripts/responsive-audit.mjs'
+      - '.github/workflows/responsive-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  responsive:
+    name: Test 10 designs × 13 viewports
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright browser
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/symphony-audit-server.log 2>&1 &
+          sleep 2
+      - name: Check 130 viewport combinations
+        run: node scripts/responsive-audit.mjs
+      - name: Upload screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: responsive-audit-report
+          path: responsive-report/
+          if-no-files-found: warn
