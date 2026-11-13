@@ -4,6 +4,18 @@
 
 > **Project status:** Ten interactive storefront **mockups** are published through GitHub Pages. They are design proposals—not ten installed Shopify themes, live product catalogs, or checkout-enabled stores. The client's actual Shopify storefront has **not** been modified, and no contract/design/price approval is recorded.
 
+## Latest upgrade — custom art and Shopify-portable source
+
+The ten hosted concepts now include added editorial layouts, responsive photo collages, interactive archive lookbooks, and **ten individually generated PNG textures** (one per concept). The PNGs are original procedural graphic artwork, not AI-rendered product photography; the image-generation service failed during this build.
+
+- **[Browse the ten updated interactive concepts](https://bradleymatera.github.io/symphonycandle/)**
+- **[Custom PNG texture asset packs](assets/concepts/)** — `assets/concepts/<concept>/signature-texture.png`
+- **[Shared front-end enhancements](assets/lux-enhancements.css)** and **[interactivity](assets/lux-enhancements.js)**
+- **[Shopify Online Store 2.0 theme source](shopify-theme/)** — Liquid, native product and cart support, sections, JSON templates, ten visual style settings, and textures available as Shopify assets
+- **[Shopify integration and handoff guide](docs/SHOPIFY-PORT.md)**
+
+**Deployment distinction:** GitHub Pages hosts working visual mockups, not Shopify checkout. The Shopify theme files are an implementation scaffold and have **not** been installed, validated with Shopify Theme Check, or end-to-end tested in the client's store. Pricing, inventory, shipping, product claims, and photo permissions must be confirmed before production use.
+
 ## 🚀 Open the demos
 
 **[OPEN THE MAIN GALLERY — ALL 10 DESIGNS](https://bradleymatera.github.io/symphonycandle/)**
